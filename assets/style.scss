@@ -1,3 +1,7 @@
 ---
 ---
+
+$background-color: {{ site.color.background | default: "white" }};
+$foreground-color: {{ site.color.foreground | default: "black" }};
+
 @import "main";

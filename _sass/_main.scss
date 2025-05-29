@@ -5,6 +5,8 @@
 }
 
 body {
+  background-color: $background-color;
+  color: $foreground-color;
   margin: auto;
   max-width: $content-width;
   padding: $content-padding;
