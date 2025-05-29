@@ -42,3 +42,4 @@ Run `bundle exec jekyll serve` to build the site locally.
 
 - [Jekyll](https://jekyllrb.com/docs/)
 - [Liquid](https://shopify.github.io/liquid/)
+- [Sass](https://sass-lang.com/documentation/)
