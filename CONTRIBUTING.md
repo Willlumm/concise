@@ -1,6 +1,6 @@
 # Contributing
 
-## Install Dependencies
+## Setup
 
 ### Install Ruby
 
@@ -37,3 +37,8 @@ bundle init
 ## Development
 
 Run `bundle exec jekyll serve` to build the site locally.
+
+## Resources
+
+- [Jekyll](https://jekyllrb.com/docs/)
+- [Liquid](https://shopify.github.io/liquid/)
