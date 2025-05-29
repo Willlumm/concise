@@ -5,16 +5,18 @@
     <meta charset="utf-8" />
     <title>{{ site.title }}</title>
   </head>
-  <body class="index">
-    <h1>{{ site.title }}</h1>
+  <body class="page-center vertical-container">
+    <h1 class="title">{{ site.title }}</h1>
     {% if site.description %}
     <div>{{ site.description }}</div>
     {% endif %}
     <div>
       <!-- TODO: Social links -->
     </div>
-    <div>
-      <!-- TODO: Index -->
+    <div class="vertical-container">
+      {% for page in site.pages %} {% if page.title %}
+      <a href="{{ site.url | append: page.url }}"> {{ page.title }} </a>
+      {% endif %} {% endfor %}
     </div>
   </body>
 </html>

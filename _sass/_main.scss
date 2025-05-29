@@ -12,15 +12,19 @@ body {
   padding: $content-padding;
 }
 
-.index {
-  display: flex;
-  flex-direction: column;
+.page-center {
   height: 100vh;
   justify-content: center;
   text-align: center;
 }
 
-.index > h1 {
+.title {
   font-size: 64px;
   margin: 0;
+}
+
+.vertical-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
