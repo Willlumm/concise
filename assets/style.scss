@@ -1,6 +1,7 @@
 ---
 ---
 
+$accent-color: {{ site.color.accent | default: "green" }};
 $background-color: {{ site.color.background | default: "white" }};
 $foreground-color: {{ site.color.foreground | default: "black" }};
 

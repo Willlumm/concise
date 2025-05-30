@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $accent-color;
+}
+
 body {
   background-color: $background-color;
   color: $foreground-color;
