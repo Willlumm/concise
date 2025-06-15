@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="{{ site.url }}/assets/style.css" />
+    <link rel="stylesheet" href="{{ site.hostname }}{{ site.baseurl }}/assets/style.css" />
     <meta charset="utf-8" />
     <title>{{ site.title }}</title>
   </head>
@@ -15,7 +15,7 @@
     </div>
     <div class="vertical-container">
       {% for page in site.pages %} {% if page.title %}
-      <a href="{{ site.url | append: page.url }}"> {{ page.title }} </a>
+      <a href="{{ site.baseurl | append: page.url }}"> {{ page.title }} </a>
       {% endif %} {% endfor %}
     </div>
   </body>

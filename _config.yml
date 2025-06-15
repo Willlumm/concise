@@ -1,6 +1,7 @@
 title: Concise
 description: A simple and concise Jekyll theme.
-url: https://willlumm.github.io/concise
+hostname: https://willlumm.github.io
+baseurl: /concise
 color:
   accent: green
   background: white
