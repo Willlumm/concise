@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <h1>{{ page.title }}</h1>
+    <div>
+      {% for post in site.posts %} {% include post_block.html %} {% endfor %}
+    </div>
+  </body>
+</html>
