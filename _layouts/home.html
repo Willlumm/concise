@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link
-      rel="stylesheet"
-      href="{{ site.url }}{{ site.baseurl }}/assets/style.css"
-    />
-    <meta charset="utf-8" />
-    <title>{{ site.title }}</title>
-  </head>
+  {% include head.html %}
   <body class="page-center vertical-container">
     <h1 class="title">{{ site.title }}</h1>
     {% if site.description %}
